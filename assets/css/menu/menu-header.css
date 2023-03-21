@@ -1,0 +1,14 @@
+.menu__header{
+    display: flex;
+    align-items: center;
+}
+.menu__header img{
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 425px) {
+    .menu__header img{
+        height: 2rem;
+    }
+}
